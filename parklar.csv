@@ -1,54 +1,49 @@
-NUMBER,NAME,CITY,AREA,DATE
-1,Yozgat Çamlığı Milli Parkı,Yozgat,517,5.02.1958
-2,Karatepe - Aslantaş Milli Parkı,Osmaniye,"4,143",29.05.1958
-3,Soğuksu Milli Parkı,Ankara,"1,186",19.02.1959
-4,Kuşcenneti Milli Parkı,Balıkesir,"17,058",27.07.1959
-5,Uludağ Milli Parkı,Bursa,"13,024",20.09.1961
-6,Yedigöller Milli Parkı,Bolu,"1,623",29.04.1965
-7,Dilek Y. – B. Menderes D. Milli Parkı,Aydın,"27,598",19.05.1966
-8,Spil Dağı Milli Parkı,Manisa,"6,801",22.04.1968
-9,Kızıldağ Milli Parkı,Isparta,"80,200",9.05.1969
-10,Güllük Dağı - Termessos Milli Parkı,Antalya,"6,700",3.11.1970
-11,Kovada Gölü Milli Parkı,Isparta,"6,551",3.11.1970
-12,Munzur Vadisi Milli Parkı,Tunceli,"42,674",21.12.1971
-13,Beydağları Sahil Milli Parkı,Antalya,"31,166",16.03.1972
-14,Köprülü Kanyon Milli Parkı,Antalya,"47,473",12.12.1973
-15,Ilgaz Dağı Milli Parkı,Kastamonu,"1,118",2.06.1976
-16,Başkomutan Tarihi Milli Parkı,Afyonkarahisar,"34,834",8.11.1981
-17,Altındere Vadisi Milli Parkı,Trabzon,"4,468",9.09.1987
-18,Boğazköy – Alacahöyük Milli Parkı,Çorum,"2,600",21.09.1988
-19,Nemrut Dağı Milli Parkı,Adıyaman,"13,827",7.12.1988
-20,Beyşehir Gölü Milli Parkı,Konya,"82,157",11.01.1993
-21,Kazdağı Milli Parkı,Balıkesir,"20,935",17.04.1994
-22,Altınbeşik Mağarası Milli Parkı,Antalya,"1,147",31.08.1994
-23,Hatila Vadisi Milli Parkı,Artvin,"16,944",31.08.1994
-24,Karagöl – Sahara Milli Parkı,Artvin,"3,251",31.08.1994
-25,Kaçkar Dağları Milli Parkı,Rize,"52,970",31.08.1994
-26,Aladağlar Milli Parkı,Niğde,"55,064",21.04.1995
-27,Marmaris Milli Parkı,Muğla,"29,206",8.03.1996
-28,Saklıkent Milli Parkı,Muğla,"1,643",6.06.1996
-29,Troya Tarihi Milli Parkı,Çanakkale,"13,517",7.11.1996
-30,Honaz Dağı Milli Parkı,Denizli,"9,429",21.04.1998
-31,Küre Dağları Milli Parkı,Kastamonu,"37,753",7.07.2000
-32,"Sarıkamış-Allahuekber Dağları Milli
-Parkı",Kars,"22,520",19.10.2004
-33,Ağrı Dağı Milli Parkı,Ağrı,"88,015",17.11.2004
-34,Gala Gölü Milli Parkı,Edirne,"5,923",5.03.2005
-35,Sultan Sazlığı Milli Parkı,Kayseri,"24,358",17.03.2006
-36,Tek Tek Dağları Milli Parkı,Şanlıurfa,"19,335",29.05.2007
-37,"İğneada Longoz Ormanları Milli
-Parkı",Kırklareli,"3,155",13.11.2007
-38,Yumurtalık Lagünü Milli Parkı,Adana,"16,980",6.12.2008
-39,Nene Hatun Tarihi Milli Parkı,Erzurum,387,6.06.2009
-40,"Sakarya Meydan Muharebesi Tarihi
-Milli Parkı",Ankara,"13,850",8.02.2015
-41,Kop Dağı Müdafaası Tarihi Milli Parkı,Bayburt,"6,335",15.11.2016
-42,"Malazgirt Meydan Muharebesi
-Tarihi Milli Parkı",Muş,238,17.03.2018
-43,İstiklal Yolu Tarihi Milli Parkı,Kastamonu,236,2.11.2018
-44,Botan Vadisi Milli Parkı,Siirt,"11,358",15.08.2019
-45,Hakkari Cilo ve Sat Dağları Milli Parkı,Hakkari,"27,500",26.09.2020
-46,Sarıçalı Dağı Milli Parkı,Ankara,"1,024",28.10.2021
-47,"Derebucak Çamlık Mağaraları Milli
-Parkı",Konya,"1,147",7.06.2022
-48,Abant Gölü Milli Parkı,Bolu,"1,262",10.06.2022
+NUMBER,NAME,CITY,AREA,DATE,INFORMATION
+1,Yozgat Çamlığı Milli Parkı,Yozgat,517,5.02.1958,"İç Anadolu Bölgesi'nde insan etkisi ile meydana gelen step içerisinde yer alan sayılı kalıntı ormanlardan biridir. Türkiye'nin ilk millî parkı olma özelliğine sahip olan parkın ortalama yüksekliği 1350 metredir. Sahadaki arazinin morfolojik özelliklerini tepeler, sırtlar ve vadilerde parçalanmış dalgalı düzlükler meydana getirmektedir."
+2,Karatepe - Aslantaş Milli Parkı,Osmaniye,"4,143",29.05.1958,"1958 yılında Akdeniz Bölgesi’nde, Osmaniye İlinin Kadirli İlçesine 22 km uzaklıkta ve Ceyhan Nehrinin kenarında kurulmuştur. Milli parkta Genç Hitit devrine ait (MÖ 8'inci yüzyıl) yerleşme ve kale kalıntıları bulunur. Bu alanda sonraki zamanlarda Roma ve Bizans medeniyetlerine ait yerleşmeler kurulmuş kalıntılar bulunur."
+3,Soğuksu Milli Parkı,Ankara,"1,186",19.02.1959,"Ankara'nın Kızılcahamam ilçesinde yer alan ve 19 Şubat 1959'da kurulan bir millî parktır. Ankara şehir merkezine 80 kilometre uzaklıktadır. Parkın volkanik bölge olmasından dolayı, çevresindeki sıcak ve soğuk su kaynakları kaplıca olarak değerlendirilmektedir."
+4,Kuşcenneti Milli Parkı,Balıkesir,"17,058",27.07.1959,"Kuşcenneti Millî Parkı; Marmara Bölgesi’nde, Balıkesir ili içerisindeki Manyas Kuşgölü’nün kuzeydoğusunda yer alır. Manyas, Gönen, Bandırma arasındadır. Bandırma-Balıkesir karayolunun 15'inci kilometresinden güneye sapan 3 kilometrelik bir yolla Kuşcenneti’ne ulaşılır."
+5,Uludağ Milli Parkı,Bursa,"13,024",20.09.1961,"1961 yılında koruma altına alınan alanı 12762 hektar'dır. Daha sonra millî park alanı 27300 hektara çıkarılmıştır. Millî parkta ulaşım karayolu, teleferik ve telesiyej ile yapılabilmektedir."
+6,Yedigöller Milli Parkı,Bolu,"1,623",29.04.1965,"Millî parkta hakim bitki örtüsü kayın ağaçlarıdır. Ayrıca meşe, gürgen, kızılağaç, karaçam, sarıçam, köknar, karaağaç, ıhlamur ve porsuk gibi değişik tür ağaçlar da görülmektedir. Etkili koruma ile parkın içerisinde ve yakın çevresindeki sahalarda sayıları artan geyik, karaca, ayı, yabani domuz, kurt, tilki ve sincap türleri bulunmaktadır."
+7,Dilek Y. – B. Menderes D. Milli Parkı,Aydın,"27,598",19.05.1966," Aydın il sınırları içinde Dilek Dağı'nın Ege Denizi'ne uzandığı son noktada yer alan millî park. 27675 hektarlık bir alana sahiptir. Bu alanın 10985 hektarı 19/05/1966 yılında Millî Park ilan edilen Dilek Yarımadasına, 16690 hektarı 1994 yılında Millî Park ilan edilen Büyük Menderes Deltasına aittir."
+8,Spil Dağı Milli Parkı,Manisa,"6,801",22.04.1968,"Manisa İl Çevre ve Orman Müdürlüğü'ne bağlıdır. Ayrıca, zirveye yakın Atalanı mevkisi de bu park içinde yer almaktadır. Osmanlı Devleti'nden beri var olan atların mevsimlik olarak veya ihtiyarlamaları nedeniyle burada yılkıya bırakılmasıyla atların doğal yaşam sahası hâline gelmiştir."
+9,Kızıldağ Milli Parkı,Isparta,"80,200",9.05.1969,"Kızıldağ Millî Parkı, öncelikle bir dağdır. Karaçamıyla, sedir ağaçlarıyla, meşe ve ardıç ağaçlarıyla örtülüdür. Mavi yapraklı sedir ormanının bulunduğu tek bölgedir."
+10,Güllük Dağı - Termessos Milli Parkı,Antalya,"6,700",3.11.1970,"Alan tarihi, arkeolojik, botanik, jeolojik ve jeomorfolojik değerleri barındırır. Güllük Dağı (Solymos Dağı) yamaçlarında Anadolu'nun yerli halkı Solimlerin kurmuş olduğu Termessos antik kenti kalıntıları yer alır. Antik kent civarında derin vadiler ve tepeler yer alır."
+11,Kovada Gölü Milli Parkı,Isparta,"6,551",3.11.1970,"Millî park sâhası içerisinde konaklama ve piknik yapma amaçlı hazırlanmış yerler mevcuttur. Burada otelde değil çadırlarda ve karavanlarda kalınalabilir. Kovada Gölü Millî Parkı, Isparta- Eğirdir-Konya devlet kara yolundan ayrılıp güneye dönen 23 km'lik bir yol ile ulaşılmaktadır."
+12,Munzur Vadisi Milli Parkı,Tunceli,"42,674",21.12.1971,"Bu bölgenin millî park olarak ilan edilmesinde, başta akarsu kaynakları ve gözeler olmak üzere, zengin doğal veriler, endemik bitki türleri ve yöreye özgü hayvan türleri ile zenginleşen bitki örtüsü ve yaban hayvan varlığıdır. Munzur Çayı üzerinde yapımına başlanan 8 adet baraj, millî park için büyük bir tehlike oluşturuyorlar. Munzur Vadisi Millî Parkı florasında, 1518 çeşitli bitki kayıtlı olup, bunlardan 43 çeşidi Munzur Dağları'na, 227 çeşidi Türkiye'ye endemik türlerden oluşmaktadır."
+13,Beydağları Sahil Milli Parkı,Antalya,"31,166",16.03.1972,"1972 tarihinde Antalya ili Kemer ilçesi sınırarı içinde bulunan doğal ve tarihi güzelliklerin korunması için sit alanı olarak korunmaya alınan bölge. Olimpos-Beydağları Sahil Millî Parkı Sarısu'dan itibaren Antalya - Kumluca karayoluna ve Akdeniz'e paralel olarak Gelidonya Burnu'na kadar uzanmaktadır. Akdeniz Körfezinin batı sahilinde muhteşem güzellikte doğal plajlar antik şehirler vardır."
+14,Köprülü Kanyon Milli Parkı,Antalya,"47,473",12.12.1973,"Park, Bolasan ile Beşkonak arasında, ortasından Köprü Çayı akan 14 km uzunluğunda, 100 m derinliğinde Köprülü Kanyon çevresinde yer alır. 14 km uzunluğu ile en uzun kanyonumuzdur. Park arazisinde sedir ormanları ve Kapadokya'daki peri bacalarına benzeyen taş oluşumları vardır."
+15,Ilgaz Dağı Milli Parkı,Kastamonu,"1,118",2.06.1976,"Kıyı ile iç bölgeler arasında geçiş alanı olması nedeniyle alan habitat zenginliğine sahiptir. Millî park; Jeomorfolojik ve jeolojik özellikleri, zengin bitki ve orman dokusu, ilginç manzaraları, yüksek rekreasyon imkânları, kış sporları ve turizmi imkânları ile temiz havası ile dikkat çeker. Millî parkın 337,75 hektarı Çankırı ilinde, 750,86 hektarı Kastamonu ilinde yer alır."
+16,Başkomutan Tarihi Milli Parkı,Afyonkarahisar,"34,834",8.11.1981,"Türkiye'nin İç Anadolu Bölgesi'nde tarihî ve kültürel değerlerin korunması amacıyla , 8 Kasım 1981'de ilân edilen millî park. Millî Mücadele'nin dönüm noktası olan çarpışmaların yaşandığı; günümüzde Afyonkarahisar, Kütahya ve Uşak illeri sınırları içinde kalan toplam 42183 hektarlık alandan oluşmaktadır. Alan içerisinde çeşitli şehitlikler, anıtlar ve bir de müze bulunmaktadır."
+17,Altındere Vadisi Milli Parkı,Trabzon,"4,468",9.09.1987,"Trabzon'un güneyinde Maçka yakınlarındadır. Bu millî parkın içinde, neredeyse bulutların bile üzerinde yer alan muhteşem Sümela Manastırı bulunur. 270 m yükseklikteki bir uçurum fasadında bulunan manastır en görkemli konuma Trabzon İmparatoru Alexius Üçüncü Komnenos döneminde getirilmiştir."
+18,Boğazköy – Alacahöyük Milli Parkı,Çorum,"2,600",21.09.1988,"Anadolu'da kurulan en eski uygarlıklardan biri olan Hititlerden kalma arkeolojik değerler barındırır. Hitit devletinin başkenti Hattuşaş'a ait; kent surları, yer kapı, aslanlı kapı ile yazılıkaya günümüze ulaşan önemli eserlerdendir. Alanda yapılan kazılarda 5 kültür katı belirlenmiştir."
+19,Nemrut Dağı Milli Parkı,Adıyaman,"13,827",7.12.1988,"İçinde Kommagene Krallığı'nın bir antik kentini barındıran millî park ve ören yeri. Adıyaman il merkezinde Kâhta'ya bağlantı sağlayan karayolu ile ulaşım sağlanmakta olup, Millî Park Adıyaman il sınırları içerisindedir. Adıyaman hava alanından ulaşım oldukça rahat ve kolaydır."
+20,Beyşehir Gölü Milli Parkı,Konya,"82,157",11.01.1993,"Türkiye'nin en büyük tatlı su kaynağı olan Beyşehir Gölü'nde Beyşehir ve Kızıldağ olmak üzere iki ayrı millî park bulunuyor. Beyşehir Gölü Millî Parkı, Türkiye'nin en önemli ziyaretçi çeken doğal mekanları arasında gösteriliyor. Beyşehir millî parkının orman formasyonunu ardıç, karaçam, göknar, sedir ve meşe türleri oluşturuyor."
+21,Kazdağı Milli Parkı,Balıkesir,"20,935",17.04.1994,"Millî park sınırları içinde yer alan Pınarbaşı ve Hasanboğuldu piknik alanları başlıca gezi noktalarıdır. Ayrıca; Mehmetalan Köyü, millî park sınırları içinde kalır. Millî parkın kültürel özelliği ise Sarıkız efsanesi ve bu kişiye ait mezarın, millî park sınırları içinde bir tepede yer almasıdır."
+22,Altınbeşik Mağarası Milli Parkı,Antalya,"1,147",31.08.1994,"Altınbeşik Mağarası, Türkiye’nin birinci, Avrupa’nın üçüncü en büyük sualtı gölü mağarasıdır. İncelmeler sonucunda iç kollarıyla birlikte uzunluğu yaklaşık 2200 metreye ulaştığı ortaya çıkmıştır. Mağara suyunun yer yer derinliği 15 metreyi bulmaktadır."
+23,Hatila Vadisi Milli Parkı,Artvin,"16,944",31.08.1994,"Artvin merkez ilçe sınırları içerisinde Hatila Vadisindeki Hatila Deresi ve birçok yan derelerini içerir. Ulaşım, Artvin il merkezinden 10 km'lik stabilize bir yol ile sağlanır. Vadi boyunca değişik kayaç türleri görülmekle birlikte, bu kayaçların hemen hepsi derinlik volkanizmasının ürünüdür."
+24,Karagöl – Sahara Milli Parkı,Artvin,"3,251",31.08.1994,"Karagöl, Şavşat ilçe merkezinin 45 km. kuzeyinde yer almaktadır. Sahara yaylası ise ilçe merkezine 17 km. uzaklıktadır. Karagöl ve çevresinde genel olarak paleojen ve neojen arazileri yer alır."
+25,Kaçkar Dağları Milli Parkı,Rize,"52,970",31.08.1994,"Alan; korunmuş doğal ekosistem, alüvyal ormanlar, alpin çayırlıklar, çalı toplulukları, yaşlı ormanlar, güncel buzullar ve oluşturduğu şekiller ile yörede yüzyıllar içinde oluşan otantik kırsal hayat ve kültürü ile korunmaya değer bulunmuştur. Yörede tarihi değere sahip eser ve kalıntılar ile kültürel değerler yer almaktadır. Zir kale, Kale-i Balâ, Elevit kalıntıları, Çat Köprüsü, tarihi konaklar, Vartivor ve Hodoçur yayla şenlikleri, bunlardan bazılarıdır."
+26,Aladağlar Milli Parkı,Niğde,"55,064",21.04.1995,"Toros sıradağlarının en yüksek zirvelerine sahip olan Aladağlar jeolojik olarak da Türkiye'nin en ilginç yerlerinden biridir. Buzul Gölleri ve Kapuzbaşı Şelaleleri görülmeye değer yerlerdir. Millî parkın düşlük rakımlı kesimlerinde kızılçam, karaçam ve göknar toplulukları bulunmaktadır."
+27,Marmaris Milli Parkı,Muğla,"29,206",8.03.1996,"Alan ilginç jeomorfolojik yapılar, nadir ekosistemler, hayvan ve bitki miktar ve türleri bakımından zenginlik dikkat çekicidir. Alanın önemli özellikleri şu şekilde sıralanabilir. Önemli kuş alanı, önemli bitki alanı, önemli doğa alanı, önemli memeli alanı, sıcak bölge alanı, sıfır yok oluş alanı."
+28,Saklıkent Milli Parkı,Muğla,"1,643",6.06.1996,"Eşen çayı'nın kolu olan Karaçay'nın Akdağ üzerinde oluşturduğu jeomorfolojik oluşumdur. Torosların üzerinde yayla yerleşmeleri yer alır. Kayak tesisleri mevcuttur."
+29,Troya Tarihi Milli Parkı,Çanakkale,"13,517",7.11.1996,"Antik Troas bölgesindeki Troya ören yeri ve çevresindeki tarihî- kültürel dokuyu korumak amacıyla 1996 yılında milli park olarak ilan edilmiş bir alandır. Ezine ilçe sınırları içerisinde, Çanakkale Boğazı'nın girişinde yer alır. Troya Tarihî Milli Parkı içinde birinci derece Arkeolojik SİT alanı olarak ilan edilmiş 2 adet antik kent 4 tümülüs, 3 anıt eser, 3 tescilli mezar bulunur."
+30,Honaz Dağı Milli Parkı,Denizli,"9,429",21.04.1998,"Türkiye'nin Denizli ilinin güneydoğusu boyunca, Ege ve Akdeniz bölgelerini ayıran doğal sınır olarak uzanan bir dağdır. Ege Bölgesi'nin en yüksek dağı olan Honaz Dağı'nın deniz seviyesinden yüksekliği 2571 metredir. 1995 yılında millî park ilan edilmiştir."
+31,Küre Dağları Milli Parkı,Kastamonu,"37,753",7.07.2000,"Çeşitli faktörlerle giderek tahrip olan Küre Dağları ve üzerindeki ormanların batı bölümü bitkisel çeşitlilik yönünden çok zengindir. Milletlerarası kuruluşların Karadeniz Bölgesi içinde, korunması öngörülen bu dağların en hassas bölümü, 1999 yılında bir millî park haline getirildi. Akdeniz iklim bölgesinin tehlikedeki bölgelerinden sayılan bu geniş alanın bir bölümünün böylece korunmaya alınması , çevredeki daha büyük alanların korunmasına yönelik bir ilk adım oldu."
+32,"Sarıkamış-Allahuekber Dağları Milli Parkı",Kars,"22,520",19.10.2004,"Binlerce Osmanlı askerinin öldüğü başarısız Sarıkamış Harekâtı, yaban hayatı zenginliği ve Sarıçam yayılışı Millî parkın temel özelliklerini oluşturur. Park; Sarıkamış, Şenkaya ve Selim ilçeleri sınırlarında bulunur. Park alanının birinci kaynak değeri Alpin çayırlar kuşağında yayılış gösteren saf sarıçam ormanlarıdır."
+33,Ağrı Dağı Milli Parkı,Ağrı,"88,015",17.11.2004,"Nuh tufanı, Türkiye'nin en yüksek dağı ve en büyük buzulu, meteor çukuru, yaban hayatın çeşitliliği ile dikkat çeker. Alan, bitki ve hayvan tür zenginliği, peyzaj ilginçliği, volkanizma ile ilgili ilginç yer şekilleri, jeolojik özellikleri, sulak alanları, turizm ve dağcılık potansiyeli ile dikkat çeker. Millî park Türkiye, İran, Nahcivan, Ermenistan sınırlarının kesişim noktasındadır."
+34,Gala Gölü Milli Parkı,Edirne,"5,923",5.03.2005,"Enez ve İpsala İlçeleri arasında bulunan Gala ve Pamuklu göllerini kapsayan alandadır. 5 Mart 2005 tarihli Resmî Gazete'de yayınlanan 2005/8547 sayılı Bakanlar Kurulu kararıyla Gala Gölü Millî Parkı olarak belirlenmiştir. Sulak saha, göl ve orman ekosistemlerini ve kaynak değerlerini oluşturmaktadır."
+35,Sultan Sazlığı Milli Parkı,Kayseri,"24,358",17.03.2006,"Jeolojik olarak Develi Ovası en eski jeolojik formasyon olan devondur. Yahyalının güneyinde orta devona ait (370-410 milyon sene) Mercan faunası bulunmuştur. Göl sahası oluşumu miyosen devrinde başlamış pleistosen ve holosen devirlerinde erozyon malzemeleri ile dolmaya, tabakalar teşekkül etmeye başlamıştır."
+36,Tek Tek Dağları Milli Parkı,Şanlıurfa,"19,335",29.05.2007,"Park alanı; Şuayip Şehri ve Soğmatar harabelerini, Senem mağarasını barındırır. Alanda doğal bitkiler şunlardır; melengiç, peygamber çiçeği, gelincik, kekik, sütleğen, papatya ve köygöçüren. Millî park alanında tesis ve konaklama olanağı yoktur."
+37,"İğneada Longoz Ormanları Milli Parkı",Kırklareli,"3,155",13.11.2007,"Millî park, Bulgaristan sınırında yer alan İğneada beldesi sınırlarında yer alır. Yöreyi Türk topraklarına katan İne Bey'in adı yerleşmeye verilmiş, zamanla İğneada'ya dönüşmüştür. Alan bataklıklar, subasar orman, tuzlu ve tatlı su gölleri ile kıyı kumullarını bir arada barındıran ekosistemlerden birisidir. Karadeniz'e kıyısı vardır."
+38,Yumurtalık Lagünü Milli Parkı,Adana,"16,980",6.12.2008,"21 Temmuz 2005'te Ramsar alanı olarak belirlenen lagün, 16 Aralık 2008'de millî park ilan edildi. Seyhan-Ceyhan deltası üzerindeki göl lagünlerindeki bitki ve hayvan türleri ile özellikle halep çamı olarak bilinen (Pinus halepensis) gibi nadir yayılışı olan bitki türü için korunan doğal ortam oluşturmaktadır. Millî Park'ta ayrıca Caretta caretta ve özellikle Chelonia mydas olmak üzere 2 tür deniz kaplumbağasının varlığını sürdürdükleri alan özelliğine sahiptir."
+39,Nene Hatun Tarihi Milli Parkı,Erzurum,387,6.06.2009,"1877–1878 Osmanlı-Rus Savaşında şehrin korunmasında etkin rol üstlenen Mecidiye ve Aziziye tabyaları, Rusların kente daha fazla ilerlemesini engellemiştir. Erzurum’u ele geçirmek isteyen Ruslar Ermenilerin de yardımıyla Aziziye Tabyalarına saldırıp, nöbetçileri şehit ederler. Bu haber üzerine Erzurum halkı o zaman henüz 20 yaşında olan Nene Hatun’un önderliğinde kadın-erkek ellerine ne geçirdiyseler Aziziye Tabyasına koşarak büyük bir mücadele sonucunda tabyaları geri alırlar."
+40,"Sakarya Meydan Muharebesi Tarihi Milli Parkı",Ankara,"13,850",8.02.2015,"Sakarya Meydan Muharebesi, Kurtuluş Savaşı'nın dönüm noktası olarak görülmektedir. Savaşın gerçekleştiği alandaki siperler, mevziler, şehitlikler, savaşta kullanılan binalar kaynak değer olarak tespitleri yapılmaya başlanmıştır. Millî park içinde İstiklal Harbi'nin gerçekleştiği Mangal Dağı, Türbe Tepe, Yıldız Dağı, Duatepe, Karatepe, Kartaltepe, Sarıçal Dağı yer almaktadır."
+41,Kop Dağı Müdafaası Tarihi Milli Parkı,Bayburt,"6,335",15.11.2016,"Osmanlıların Üçüncü Ordu ile muzaffer olduğu alanın rekreasyonu da bu tarihî değeri göz önünde bulundurularak yapılmıştır. Çarşak çayı endemik alanı olan millî park ayrıca 10'u endemik, 37'si nadir olmak üzere 134 kelebek türünü barındırmaktadır. Türkiye'nin en zengin kelebek alanlarından birisi görünümündedir."
+42,"Malazgirt Meydan Muharebesi Tarihi Milli Parkı",Muş,238,17.03.2018,"Millî park, Malazgirt Meydan Muharebesi'nin gerçekleştiği alan üzerinde kurulu bulunmaktadır. Selçukluların Bizans İmparatorluğu'na karşı zaferiyle sonuçlanan savaş alanındadır. Rekreasyonu da bu tarihî değeri göz önünde bulundurularak yapılmıştır."
+43,İstiklal Yolu Tarihi Milli Parkı,Kastamonu,236,2.11.2018,"İnebolu sahilinden başlayıp Kastamonu ve Çankırı üzerinden Ankara'ya uzanan, Türk Kurtuluş Savaşı boyunca İnebolu'ya deniz yoluyla gelen cephanenin kağnılarla cepheye ulaştırılmasında kullanılmış olan 344 km'lik yoldur. Savaş boyunca İnebolu açıklarına gemilerle gelen cephane ve silahlar kayıklarla İnebolu'ya taşınmıştır. Kastamonu kadınları tarafından zor şartlarda cepheye taşınmıştır."
+44,Botan Vadisi Milli Parkı,Siirt,"11,358",15.08.2019,"Siirt ili sınırları içerisinde bulunan millî park statüsündeki tarihî alan. Millî parkın coğrafi ve tarihî önemi bulunmaktadır. Merkez, Tillo ve Eruh ilçelerinde bulunan Botan Vadisi 120 bin dönümden ve 29 kilometrelik güzergahtan oluşuyor olup yamaç paraşütü, rafting gibi sporlara da elverişlidir."
+45,Hakkari Cilo ve Sat Dağları Milli Parkı,Hakkari,"27,500",26.09.2020,"Türkiye'nin Hakkari ilinini Merkez, Şemdinli ve Yüksekova ilçeleri sınırları içinde yer alan bir millî parktır. Yüksekova ilçesine 50 kilometre mesafede yer alan Cilo Dağı ve Sat Dağları'nı kapsamaktadır. Park, Türkiye'nin en yüksek zirvelerinden biri olan Uludoruk'u da kapsamaktadır."
+46,Sarıçalı Dağı Milli Parkı,Ankara,"1,024",28.10.2021," Türkiye'nin Ankara ilinin Nallıhan ilçesinde yer alan bir millî parktır. 28 Ekim 2021 tarihinde kurulmuştur. 1024 hektar alan kaplamaktadır."
+47,"Derebucak Çamlık Mağaraları Milli Parkı",Konya,"1,147",7.06.2022,"Batı Torosların güneydoğusunda Akdağlar üzerinde yer alır. Çamlık Kasabası’na yaklaşık 1,5 km uzaklıktadır. Daha önce 29 Kasım 2013'te tabiat anıtı ilan edilmişti."
+48,Abant Gölü Milli Parkı,Bolu,"1,262",10.06.2022,"Batı Karadeniz sıradağlarının Karadeniz sahiline paralel ikinci kolunu oluşturan Abant ve Keremali sıradağlarının kolları arasındadır. Abant Gölü, Abant Dağları üzerinde oluşmuş bir krater ve birikinti gölüdür. Park alanında 1400 metreden 1700 metreye kadar yükseklikte olan birçok tepe vardır."
