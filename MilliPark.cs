@@ -40,6 +40,6 @@ public class MilliPark
     {
         return (milliParkAdi + " " + ilAdi + " " +
         ilanTarihi.ToShortDateString() + " " + yuzOlcumu + "\n" +
-        string.Join("\n", parkBilgileri));
+        string.Join("\n", parkBilgileri) + "\n");
     }
 }
