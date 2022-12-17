@@ -1,16 +1,16 @@
 public class MilliPark 
 {
     private string milliParkAdi;
-    private List<string> ilAdlari;
+    private string ilAdi;
     private DateTime ilanTarihi;
     private int yuzOlcumu;
     private List<string> parkBilgileri;
 
-    public MilliPark(string milliParkAdi, List<string> ilAdlari,
+    public MilliPark(string milliParkAdi, string ilAdi,
      DateTime ilanTarihi, int yuzOlcumu, List<string> parkBilgileri)
     {
         this.milliParkAdi = milliParkAdi;
-        this.ilAdlari = new List<string>(ilAdlari);
+        this.ilAdi = ilAdi;
         this.ilanTarihi = ilanTarihi;
         this.yuzOlcumu = yuzOlcumu;
         this.parkBilgileri = new List<string>(parkBilgileri);
@@ -19,7 +19,7 @@ public class MilliPark
     public MilliPark(MilliPark park)
     {
         milliParkAdi = park.MilliParkAdi;
-        ilAdlari = park.IlAdlari;
+        ilAdi = park.ilAdi;
         ilanTarihi = park.IlanTarihi;
         yuzOlcumu = park.YuzOlcumu;
         parkBilgileri = park.ParkBilgileri;
@@ -27,8 +27,8 @@ public class MilliPark
 
     public string MilliParkAdi
     { get => milliParkAdi; set => milliParkAdi = value; }
-    public List<string> IlAdlari
-    { get => new List<string>(ilAdlari); set => ilAdlari = value; }
+    public string IlAdi
+    { get => ilAdi; set => ilAdi = value; }
     public DateTime IlanTarihi
     { get => ilanTarihi; set => ilanTarihi = value; }
     public int YuzOlcumu
@@ -38,7 +38,7 @@ public class MilliPark
 
     public override string ToString()
     {
-        return (milliParkAdi + " " + string.Join(", ", ilAdlari) + " " +
+        return (milliParkAdi + " " + ilAdi + " " +
         ilanTarihi.ToShortDateString() + " " + yuzOlcumu + "\n" +
         string.Join("\n", parkBilgileri));
     }
