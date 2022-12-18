@@ -59,6 +59,12 @@ class Tree {
             return (Math.Max(leftDepth, rightDepth) + 1);
         }
     }
+
+    public int getBalancedTreeDepth()
+    {
+        return ((int)Math.Floor(Math.Log(nodeCount, 2)) + 1);
+    }
+    
     public void PrintPreorder() 
     {
         PrintPreorder(root);
