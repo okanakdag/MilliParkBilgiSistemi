@@ -64,7 +64,7 @@ class Tree {
     {
         return ((int)Math.Floor(Math.Log(nodeCount, 2)) + 1);
     }
-    
+
     public void PrintPreorder() 
     {
         PrintPreorder(root);
@@ -77,6 +77,32 @@ class Tree {
             Console.WriteLine(node.Park);
             PrintPreorder(node.Left);
             PrintPreorder(node.Right);
+        }
+    }
+
+    public string? SearchPark(string parkName)
+    {
+        if (parkName.Length != 3) return null;
+        return SearchPark(root, parkName);
+    }
+
+    private string? SearchPark(CustomTreeNode? localRoot, string parkName)
+    {
+        if (localRoot == null)
+        {
+            return null;
+        }
+        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3), parkName, true, cultureTR) == 0)
+        {
+            return localRoot.Park.IlAdi;
+        }
+        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3), parkName, true, cultureTR) > 0)
+        {
+            return SearchPark(localRoot.Left, parkName);
+        }
+        else
+        {
+            return SearchPark(localRoot.Right, parkName);
         }
     }
 

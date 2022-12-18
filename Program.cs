@@ -72,3 +72,5 @@ while (pq.TryDequeue(out MilliPark item, out int priority))
     maxHeap.insert(item);
 }
 maxHeap.printHeap();
+
+Console.WriteLine(tree.SearchPark("far"));
