@@ -4,7 +4,7 @@ using System.IO;
 
 Tree tree = new Tree();
 
-foreach (string line in File.ReadLines(@"parklar.csv").Skip(1))
+foreach (string line in File.ReadLines(@"parklar_test.csv").Skip(1))
 {
 
     CultureInfo cultureinfo = new CultureInfo("tr-TR");
@@ -26,6 +26,9 @@ foreach (string line in File.ReadLines(@"parklar.csv").Skip(1))
 
     MilliPark park = new MilliPark(milliParkAdi, ilAdi, ilanTarihi, yuzOlcumu, parkBilgileri);
     tree.AddNode(park);
+    Console.WriteLine("ses");
 }
 
 tree.PrintPreorder();
+Console.WriteLine(tree.NodeCount);
+Console.WriteLine(tree.getTreeDepth());

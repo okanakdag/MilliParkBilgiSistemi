@@ -39,7 +39,26 @@ class Tree {
             else AddNode(localRoot.Right, park);
         }
     }
-    
+
+    public int getTreeDepth()
+    {
+        return getTreeDepth(root);
+    }
+
+    private int getTreeDepth(CustomTreeNode? node)
+    {
+        if (node == null)
+        {
+            return 0;
+        }
+        else
+        {
+            int leftDepth = getTreeDepth(node.Left);
+            int rightDepth = getTreeDepth(node.Right);
+
+            return (Math.Max(leftDepth, rightDepth) + 1);
+        }
+    }
     public void PrintPreorder() 
     {
         PrintPreorder(root);
