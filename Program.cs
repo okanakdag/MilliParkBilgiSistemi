@@ -65,10 +65,13 @@ updateDate(parkIsimInput,parkTarihInput);
 printMilliParkHashTable(parkTable);
 
 
-
 CustomMaxHeap maxHeap = new CustomMaxHeap(pq.Count);
 while (pq.TryDequeue(out MilliPark item, out int priority))
 {
     maxHeap.insert(item);
 }
-maxHeap.printHeap();
+
+Console.WriteLine("Yuzolcumune gore en buyuk olup MaxHeap'ten cikarilan parklarin bilgileri: ");
+Console.WriteLine(maxHeap.pop());
+Console.WriteLine(maxHeap.pop());
+Console.WriteLine(maxHeap.pop());
