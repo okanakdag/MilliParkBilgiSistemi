@@ -17,6 +17,8 @@ class Tree {
         nodeCount = 0;
     }
 
+    public int NodeCount { get => nodeCount;}
+
     public void AddNode(MilliPark park)
     {
         if (root == null) root = new CustomTreeNode(park);
@@ -26,7 +28,7 @@ class Tree {
 
     private void AddNode(CustomTreeNode localRoot, MilliPark park)
     {
-        if (String.Compare(localRoot.Park.IlAdi, park.IlAdi, true, cultureTR) > 0)
+        if (String.Compare(localRoot.Park.MilliParkAdi, park.MilliParkAdi, true, cultureTR) > 0)
         {
             if (localRoot.Left == null) localRoot.Left = new CustomTreeNode(park);
             else AddNode(localRoot.Left, park);
