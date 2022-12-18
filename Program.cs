@@ -25,7 +25,7 @@ foreach (string line in File.ReadLines(@"parklar.csv").Skip(1))
     parkBilgileri.AddRange(bilgi.Split(".",StringSplitOptions.RemoveEmptyEntries));
 
     MilliPark park = new MilliPark(milliParkAdi, ilAdi, ilanTarihi, yuzOlcumu, parkBilgileri);
-    tree.AddLeaf(park);
+    tree.AddNode(park);
 }
 
 tree.PrintPreorder();

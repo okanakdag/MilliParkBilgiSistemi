@@ -1,60 +1,60 @@
 using System.Globalization;
 class Tree {
-    private Leaf? root;
-    private int leafCount;
+    private CustomTreeNode? root;
+    private int nodeCount;
     // to compare turkish letters
     private static CultureInfo cultureTR = new CultureInfo("tr-TR");
 
-    public Tree(Leaf root)
+    public Tree(CustomTreeNode root)
     {
         this.root = root;
-        leafCount = 1;
+        nodeCount = 1;
     }
 
     public Tree()
     {
         root = null;
-        leafCount = 0;
+        nodeCount = 0;
     }
 
-    public void AddLeaf(MilliPark park)
+    public void AddNode(MilliPark park)
     {
-        if (root == null) root = new Leaf(park);
-        else AddLeaf(root, park);
-        leafCount++;
+        if (root == null) root = new CustomTreeNode(park);
+        else AddNode(root, park);
+        nodeCount++;
     }
 
-    private void AddLeaf(Leaf localRoot, MilliPark park)
+    private void AddNode(CustomTreeNode localRoot, MilliPark park)
     {
         if (String.Compare(localRoot.Park.IlAdi, park.IlAdi, true, cultureTR) > 0)
         {
-            if (localRoot.Left == null) localRoot.Left = new Leaf(park);
-            else AddLeaf(localRoot.Left, park);
+            if (localRoot.Left == null) localRoot.Left = new CustomTreeNode(park);
+            else AddNode(localRoot.Left, park);
         }
         else
         {
-            if (localRoot.Right == null) localRoot.Right = new Leaf(park);
-            else AddLeaf(localRoot.Right, park);
+            if (localRoot.Right == null) localRoot.Right = new CustomTreeNode(park);
+            else AddNode(localRoot.Right, park);
+        }
+    }
+    
+    public void PrintPreorder() 
+    {
+        PrintPreorder(root);
+    }
+
+    private void PrintPreorder(CustomTreeNode? node)
+    {
+        if (node != null)
+        {
+            Console.WriteLine(node.Park);
+            PrintPreorder(node.Left);
+            PrintPreorder(node.Right);
         }
     }
 
     public bool IsEmpty()
     {
         return (root == null);
-    }
-
-    public void PrintPreorder() 
-    {
-        PrintPreorder(root);
-    }
-
-    private void PrintPreorder(Leaf? leaf)
-    {
-        if (leaf != null)
-        {
-            Console.WriteLine(leaf.Park);
-            PrintPreorder(leaf.Left);
-            PrintPreorder(leaf.Right);
-        }
     }
 }
