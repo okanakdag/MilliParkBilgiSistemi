@@ -6,6 +6,7 @@ using System.Collections;
 CultureInfo cultureinfo = new CultureInfo("tr-TR");
 Tree tree = new Tree();
 Hashtable parkTable = new Hashtable();
+PriorityQueue<MilliPark, int> pq = new(new IntMaxCompare());
 
 foreach (string line in File.ReadLines(@"parklar_test.csv").Skip(1))
 {
@@ -29,6 +30,7 @@ foreach (string line in File.ReadLines(@"parklar_test.csv").Skip(1))
     MilliPark park = new MilliPark(milliParkAdi, ilAdi, ilanTarihi, yuzOlcumu, parkBilgileri);
     tree.AddNode(park);
     parkTable.Add(park.MilliParkAdi, park);
+    pq.Enqueue(park, park.YuzOlcumu);
 
     Console.WriteLine("ses");
 }
@@ -62,3 +64,11 @@ string parkTarihInput = Console.ReadLine();
 updateDate(parkIsimInput,parkTarihInput);
 printMilliParkHashTable(parkTable);
 
+
+
+CustomMaxHeap maxHeap = new CustomMaxHeap(pq.Count);
+while (pq.TryDequeue(out MilliPark item, out int priority))
+{
+    maxHeap.insert(item);
+}
+maxHeap.printHeap();
