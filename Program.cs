@@ -44,8 +44,9 @@ bool updateDate(string milliParkAdi, string ilanTarihi) {
     if(!parkTable.ContainsKey(milliParkAdi))
         return false;
 
-    MilliPark p = (MilliPark)parkTable[milliParkAdi];
-    p.IlanTarihi = DateTime.Parse(ilanTarihi, cultureinfo);
+    MilliPark? p = (MilliPark?)parkTable[milliParkAdi];
+    if(p != null)
+        p.IlanTarihi = DateTime.Parse(ilanTarihi, cultureinfo);
     parkTable[milliParkAdi] = p;
     return true;
 } 
@@ -58,15 +59,16 @@ void printMilliParkHashTable(Hashtable parkTable) {
 }
 
 Console.Write("HashTable'da ilan tarihini guncellemek istediginiz milli parkin adini giriniz: ");
-string parkIsimInput = Console.ReadLine();
+string? parkIsimInput = Console.ReadLine();
 Console.Write("Yeni ilan tarihini giriniz (GG.AA.YYYY): ");
-string parkTarihInput = Console.ReadLine();
-updateDate(parkIsimInput,parkTarihInput);
+string? parkTarihInput = Console.ReadLine();
+if(parkIsimInput != null && parkTarihInput != null)
+    updateDate(parkIsimInput,parkTarihInput);
 printMilliParkHashTable(parkTable);
 
 
 CustomMaxHeap maxHeap = new CustomMaxHeap(pq.Count);
-while (pq.TryDequeue(out MilliPark item, out int priority))
+while (pq.TryDequeue(out MilliPark? item, out int priority))
 {
     maxHeap.insert(item);
 }
