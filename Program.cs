@@ -8,7 +8,7 @@ Tree tree = new Tree();
 Hashtable parkTable = new Hashtable();
 PriorityQueue<MilliPark, int> pq = new(new IntMaxCompare());
 
-foreach (string line in File.ReadLines(@"parklar_test.csv").Skip(1))
+foreach (string line in File.ReadLines(@"parklar.csv").Skip(1))
 {
 
     string[] bilgiler = Regex.Split(line, ",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
@@ -25,14 +25,13 @@ foreach (string line in File.ReadLines(@"parklar_test.csv").Skip(1))
     DateTime ilanTarihi = DateTime.Parse(bilgiler[4],cultureinfo);
     string bilgi = bilgiler[5].Replace("\"","");
     List<string> parkBilgileri = new List<string>();
-    parkBilgileri.AddRange(bilgi.Split(".",StringSplitOptions.RemoveEmptyEntries));
+    parkBilgileri.AddRange(bilgi.Split(". ",StringSplitOptions.RemoveEmptyEntries));
 
     MilliPark park = new MilliPark(milliParkAdi, ilAdi, ilanTarihi, yuzOlcumu, parkBilgileri);
     tree.AddNode(park);
     parkTable.Add(park.MilliParkAdi, park);
     pq.Enqueue(park, park.YuzOlcumu);
 
-    Console.WriteLine("ses");
 }
 
 tree.PrintPreorder();
@@ -77,4 +76,9 @@ Console.WriteLine(maxHeap.pop());
 Console.WriteLine(maxHeap.pop());
 Console.WriteLine(maxHeap.pop());
 
-Console.WriteLine(tree.SearchPark("far"));
+Console.WriteLine(tree.SearchPark("far") + "\n");
+
+WordTree wordTree = new WordTree();
+tree.FillWordTree(wordTree);
+// Kelime ağacını yazdırma metodu
+// Console.WriteLine(wordTree);
