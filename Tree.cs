@@ -106,6 +106,44 @@ class Tree {
         }
     }
 
+    public void FillWordTree(WordTree tree)
+    {
+        FillWordTree(root, tree);
+    }
+
+    private void FillWordTree(CustomTreeNode? localRoot, WordTree tree)
+    {
+        if (localRoot != null)
+        {
+            foreach (string line in localRoot.Park.ParkBilgileri)
+            {
+                foreach (string word in line.Split(" "))
+                tree.AddNode(TrimPuncuation(word));
+            }
+            FillWordTree(localRoot.Left, tree);
+            FillWordTree(localRoot.Right, tree);
+        }
+    }
+
+    private string TrimPuncuation(string word)
+    {
+        char[] punctuation = {'’', '\'', '-', '.', ',', '?', '!', ';', ':'};
+        word = word.Trim(punctuation);
+
+        int index;
+        foreach(char c in punctuation)
+        {
+            index = word.IndexOf(c);
+            if (index >= 0)
+            {
+                word = word.Substring(0, index);
+                break;
+            }
+        }
+
+        return word;
+    }
+
     public bool IsEmpty()
     {
         return (root == null);
