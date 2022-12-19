@@ -82,3 +82,45 @@ WordTree wordTree = new WordTree();
 tree.FillWordTree(wordTree);
 // Kelime ağacını yazdırma metodu
 // Console.WriteLine(wordTree);
+
+int BubbleSort(int[] array)
+{
+    int stepCounter = 0;
+    int arrayLength = array.Length;
+    for (int i = 0; i < arrayLength - 1; i++)
+    {
+        bool ordered = true;
+        for (int j = 0; j < arrayLength - i - 1; j++)
+        {
+            if (array[j] > array[j + 1])
+            {
+                int temp = array[j];
+                array[j] = array[j + 1];
+                array[j + 1] = temp;
+                ordered = false;
+            }
+            stepCounter++;
+        }
+
+        if (ordered)
+            break;
+    }
+    return stepCounter;
+}
+
+int[] orderedArray = {1,2,3,4,5,6,7,8};
+int[] reversedArray = {8,7,6,5,4,3,2,1};
+int[] randomArray = {1,2,3,6,5,4,7,8};
+
+// Best case O(n)
+Console.WriteLine(BubbleSort(orderedArray));
+// Worst case O(n^2)
+Console.WriteLine(BubbleSort(reversedArray));
+// Average case O(n^2)
+Console.WriteLine(BubbleSort(randomArray));
+
+foreach (int n in orderedArray) Console.Write(n);
+Console.WriteLine();
+foreach (int n in reversedArray) Console.Write(n);
+Console.WriteLine();
+foreach (int n in randomArray) Console.Write(n);
