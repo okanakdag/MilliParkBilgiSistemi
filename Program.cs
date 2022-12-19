@@ -35,8 +35,9 @@ foreach (string line in File.ReadLines(@"parklar.csv").Skip(1))
 }
 
 tree.PrintPreorder();
-Console.WriteLine(tree.NodeCount);
-Console.WriteLine(tree.getTreeDepth());
+Console.WriteLine("Ağaç derinliği: " + tree.GetTreeDepth());
+Console.WriteLine("Dengeli ağaç olsaydı derinliği" + 
+                    tree.GetBalancedTreeDepth());
 
 
 bool updateDate(string milliParkAdi, string ilanTarihi) {
@@ -80,7 +81,7 @@ Console.WriteLine(tree.SearchPark("far") + "\n");
 
 WordTree wordTree = new WordTree();
 tree.FillWordTree(wordTree);
-// Kelime ağacını yazdırma metodu
+// Kelime ağacını yazdırma metodu, çıktısı uzun diye yorumladık
 // Console.WriteLine(wordTree);
 
 int BubbleSort(int[] array)

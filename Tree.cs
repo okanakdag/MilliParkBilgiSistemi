@@ -16,7 +16,7 @@ class Tree {
         root = null;
         nodeCount = 0;
     }
-
+ 
     public int NodeCount { get => nodeCount;}
 
     public void AddNode(MilliPark park)
@@ -40,12 +40,12 @@ class Tree {
         }
     }
 
-    public int getTreeDepth()
+    public int GetTreeDepth()
     {
-        return getTreeDepth(root);
+        return GetTreeDepth(root);
     }
 
-    private int getTreeDepth(CustomTreeNode? node)
+    private int GetTreeDepth(CustomTreeNode? node)
     {
         if (node == null)
         {
@@ -53,14 +53,14 @@ class Tree {
         }
         else
         {
-            int leftDepth = getTreeDepth(node.Left);
-            int rightDepth = getTreeDepth(node.Right);
+            int leftDepth = GetTreeDepth(node.Left);
+            int rightDepth = GetTreeDepth(node.Right);
 
             return (Math.Max(leftDepth, rightDepth) + 1);
         }
     }
 
-    public int getBalancedTreeDepth()
+    public int GetBalancedTreeDepth()
     {
         return ((int)Math.Floor(Math.Log(nodeCount, 2)) + 1);
     }
@@ -92,11 +92,13 @@ class Tree {
         {
             return null;
         }
-        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3), parkName, true, cultureTR) == 0)
+        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3),
+                                 parkName, true, cultureTR) == 0)
         {
             return localRoot.Park.IlAdi;
         }
-        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3), parkName, true, cultureTR) > 0)
+        else if (String.Compare(localRoot.Park.MilliParkAdi.Substring(0, 3),
+                                 parkName, true, cultureTR) > 0)
         {
             return SearchPark(localRoot.Left, parkName);
         }
